@@ -74,6 +74,8 @@ fashion_recommender/
 ├── all_embeddings_efficient_max.pkl                         # Embeddings generated on 50k images using EfficientNet
 ├── all_embeddings_resnet_max.pkl                            # Embeddings generated on 50k images using ResNet
 ├── filenames.pkl                                            # AWS S3 URLs for fashion items ( images )
+├── test_sample_photos                                       # sample photos to test the model
+├── evaluation.xlsx
 ├── requirements.txt
 ├── README.md
 └── .gitignore
