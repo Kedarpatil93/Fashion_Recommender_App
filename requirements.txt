@@ -1,6 +1,6 @@
 streamlit==1.45.0
-numpy==1.26.4
-scikit-learn==1.4.2
-tensorflow==2.15.0
-pillow==11.2.0
+numpy==2.0.2
+scikit-learn==1.6.1
+tensorflow==2.18.0
+pillow==11.2.1
 faiss-cpu==1.8.0
