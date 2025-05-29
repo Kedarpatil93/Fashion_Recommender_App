@@ -4,3 +4,4 @@ scikit-learn==1.6.1
 tensorflow==2.18.0
 pillow==11.2.1
 faiss-cpu==1.8.0
+faiss==1.8.0
