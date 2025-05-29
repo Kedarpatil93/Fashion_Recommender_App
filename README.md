@@ -9,7 +9,7 @@ Extracts deep features using EfficientNetB3, and performs fast similarity search
 Achieves 88% Precision@5 with average latency of 0.81s, outperforming a baseline ResNet50 + KNN model (Precision@5 of 74%).
 
 ### Try the App
-Launch Web App (replace with actual deployment link)
+[Launch Web App](https://fashion-recommender-kp.streamlit.app/)
 
 How It Works
  - User uploads a fashion image (shirt, dress, bag, accessories, etc.)
@@ -30,7 +30,7 @@ How It Works
 EfficientNetB3+FAISS version is more accurate than the baseline.
 
 ### Features
- - Upload any fashion item image (RGB/JPEG/PNG)
+ - Upload any fashion item image (RGB/JPEG/PNG) or test using the images in sample folder
 
  - Top 5 similar items visualized with download or share-ready thumbnails
 
@@ -67,6 +67,7 @@ Pickle for embedding and metadata storage
 
 ### Project Structure
 
+```text
 fashion_recommender/
 ├── app_using_EfficientNet_faiss.py                          # Streamlit app with EfficientNetB3 + FAISS
 ├── baseline_resnet_knn.py                                   # ResNet50 + KNN baseline script
