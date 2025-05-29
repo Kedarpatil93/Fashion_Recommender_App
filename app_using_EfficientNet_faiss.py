@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 from PIL import Image
 from numpy.linalg import norm
-import faiss
+import faiss.cpu as faiss
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications import EfficientNetB3
 from tensorflow.keras.applications.efficientnet import preprocess_input
